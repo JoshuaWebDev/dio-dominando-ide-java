@@ -14,6 +14,8 @@ public class Calculadora {
 		System.out.println("Digite o primeiro valor: ");
 		b = scan.nextInt();
 		
+		scan.close();
+		
 		int soma = soma(a, b);
 		int subtracao = subtracao(a, b);
 		int multiplicacao = multiplicacao(a, b);
@@ -22,7 +24,7 @@ public class Calculadora {
 		System.out.println("Soma: " + soma);
 		System.out.println("Subtração: " + subtracao);
 		System.out.println("Multiplicação: " + multiplicacao);
-		System.out.println("Divisão5: " + divisao);
+		System.out.println("Divisão: " + divisao);
 	}
 
 	public static int soma(int a, int b) {
